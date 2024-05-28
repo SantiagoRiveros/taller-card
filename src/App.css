@@ -1,0 +1,50 @@
+.card{
+  border: 1px solid black;
+  border-radius: 6px;
+  max-width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.producto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  
+  
+}
+.producto img{
+  max-width: 100%
+}
+
+.producto p{
+  text-align: left;
+  max-width: 50%;
+}
+
+.producto button{
+  margin-bottom: 10px;
+  background-color: #7286d3;
+  border: 1px solid #7286d3;
+  border-radius: 4px;
+  color: white;
+  width: 80px;
+  height: 25px;
+}
+
+.producto-subcontainer{
+  border: 1px solid black;
+  border-radius: 6px;
+  max-width: 50%;
+  padding: 5px;
+}
+
+.userpassword{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+
